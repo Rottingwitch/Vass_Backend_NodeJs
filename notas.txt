@@ -1,0 +1,21 @@
+1- npm init -y = para agregar el package.json
+2- instalar express npm install express --save-dev
+3- agregar el index.js y agregar el puesto por medio de express
+4- instalar nodemon npm install -g nodemon
+5- se agregar en el package.json el script para cambiar el script para inicair la aplicacion por "start:dev": "nodemon index.js"
+6- crear rutas con express
+7- crear la conexion con la base de datos, mongoose
+8- Instalar el dotenv - permite leer escribos con la extencion .env
+9- Instalar los CORS para que este acepte pedicion de diferentes dominios
+
+// subir a git hub
+
+- pre preparacion para subir a git hub en caso de que se haga en node
+
+1- crear el .gitignore
+2- Crar el README.md
+3- se inicializa el repositorio (git init)
+
+
+1- se crea el respositorio en GitHub
+2- se copian las lineas de comando que sean necesarias 
