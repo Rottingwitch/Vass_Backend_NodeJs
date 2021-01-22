@@ -17,6 +17,7 @@
 3- se inicializa el repositorio (git init)
 4- git add . = para tomar la fotografia
 5- git commit -m "nombre por eleccion"
+6- git push
 Creado el repositorio local con git
 
 Subi a Github
@@ -26,7 +27,19 @@ Subi a Github
 Creacion de Tag en la aplicacion
 
 1- git tag -a v
+2- git push --tags
 
+
+
+
+librerias utiles
+
+1- express-validator / sirve para validar todos los campos que sean obligatorios
+
+
+notas
+
+los middlewares son iguales que los controladores pero lo unico que diferencia es que los middleware cuenta con el next();
 
 
 

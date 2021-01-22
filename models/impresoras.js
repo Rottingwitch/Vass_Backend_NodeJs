@@ -21,7 +21,7 @@ const ImpresoraSchema = Schema ({
         required: true,
     },
     centro_operacion: {
-        type: String,
+        type: Number,
         required: true,
     },
     sucursal: {
