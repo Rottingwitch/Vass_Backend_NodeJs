@@ -11,6 +11,10 @@ const app = express();
 // Confirgurar CORS
 app.use(cors());
 
+
+// Lectura y parceo del body
+app.use( express.json() );
+
 // Base de datos conexion
 dbConnection();
 
@@ -20,14 +24,9 @@ dbConnection();
 
 
 // Rutas
-app.get('/' , (req, res) => {
+app.use('/api/usuarios', require('./routes/usuarios') );
+app.use('/api/impresoras', require('./routes/impresoras') );
 
-    res.json({
-        ok:true,
-        msg:"hola mundo"
-    })
-
-})
 
 
 

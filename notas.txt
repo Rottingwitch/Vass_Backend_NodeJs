@@ -15,7 +15,19 @@
 1- crear el .gitignore
 2- Crar el README.md
 3- se inicializa el repositorio (git init)
+4- git add . = para tomar la fotografia
+5- git commit -m "nombre por eleccion"
+Creado el repositorio local con git
 
-
+Subi a Github
 1- se crea el respositorio en GitHub
-2- se copian las lineas de comando que sean necesarias 
+2- se copian las lineas de comando que sean necesarias
+
+Creacion de Tag en la aplicacion
+
+1- git tag -a v
+
+
+
+
+
