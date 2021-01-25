@@ -35,6 +35,7 @@ Creacion de Tag en la aplicacion
 librerias utiles
 
 1- express-validator / sirve para validar todos los campos que sean obligatorios
+2- bcryptjs sirve para incriptar las contraseñas 
 
 
 notas
