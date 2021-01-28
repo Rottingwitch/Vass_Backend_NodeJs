@@ -20,6 +20,11 @@ const UsuarioSchema = Schema ({
         type: String,
         required: true,
     },
+    rol: {
+        type: String,
+        required: true,
+        default: 'USER_ROLE' 
+    },
 
 
 });
