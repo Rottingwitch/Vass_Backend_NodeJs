@@ -141,6 +141,29 @@ const borrarImpresora = async( req, res = response ) => {
     }    
 }
 
+const getImpresorasById = async(req, res = response ) => {
+
+    const id = req.params.id;
+
+    try {
+        const impresora = await Impresora.findById(id);
+    
+        res.json({
+           ok:true,
+           impresora
+        });
+        
+    } catch (error) {
+        console.log(error);
+        res.json({            
+            ok: false,
+            msg: 'Error inesperado'
+         });
+    }
+
+
+}
+
 
 
 
@@ -149,5 +172,6 @@ module.exports = {
     getImpresoras,
     crearImpresoras,
     actualizarImpresora,
-    borrarImpresora
+    borrarImpresora,
+    getImpresorasById
 }

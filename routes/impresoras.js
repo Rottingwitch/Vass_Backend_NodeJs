@@ -4,7 +4,7 @@
 const { Router } = require('express');
 const { check } = require('express-validator'); 
 const { validarCampos } = require('../middlewares/validar-campos')
-const { getImpresoras, crearImpresoras, actualizarImpresora, borrarImpresora } = require('../controllers/impresoras');
+const { getImpresoras, crearImpresoras, actualizarImpresora, borrarImpresora, getImpresorasById } = require('../controllers/impresoras');
 
 
 const router = Router();
@@ -46,6 +46,8 @@ actualizarImpresora );
 router.delete( '/:id' , borrarImpresora );
 
 
+/** */
+router.get( '/:id' , getImpresorasById );
 
 
 
